@@ -1,14 +1,14 @@
 {
-  "name": "turtlecoind-ha",
+  "name": "obsidiand-ha",
   "version": "0.8.8",
-  "description": "Wraps the Turtlecoind Daemon and helps keep the daemon synchronized and ready for connections.",
+  "description": "Wraps the Obsidiand Daemon and helps keep the daemon synchronized and ready for connections.",
   "main": "index.js",
   "scripts": {
     "postinstall": "node checkpoints.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandonlehmann/turtlecoind-ha.git"
+    "url": "git+https://github.com/ObsidianProtocol/obsidiand-ha.git"
   },
   "keywords": [
     "TurtleCoin",
