@@ -20,9 +20,9 @@ var daemon = new TurtleCoind({
   webSocketPassword: false, // Set this to a password to use for the privileged socket events.
 
   // These are the standard TurtleCoind options
-  path: './Obsidiand', // Where can I find TurtleCoind?
-  dataDir: '~/.Obsidian', // Where do you store your blockchain?
-  logfile: '/.Obsidian.log', //Where to store log file
+  path: './Obscured', // Where can I find TurtleCoind?
+  dataDir: '~/.Obscure', // Where do you store your blockchain?
+  logfile: '/.Obscure.log', //Where to store log file
   testnet: false, // Use the testnet?
   enableCors: true, // Enable CORS support for the domain in this value
   enableBlockExplorer: true, // Enable the block explorer

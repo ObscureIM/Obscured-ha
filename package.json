@@ -27,7 +27,7 @@
     "shelljs": "^0.8.1",
     "socket.io": "^2.1.1",
     "turtlecoin-rpc": "^0.8.9",
-    "forever":"^0.15.3"
+    "forever": "^0.15.3"
   },
   "devDependencies": {
     "standard": "^11.0.1"
