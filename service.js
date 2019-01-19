@@ -50,27 +50,27 @@ function log (message) {
 }
 
 daemon.on('start', (args) => {
-  log(util.format('Obsidiand has started... %s', args))
+  log(util.format('Obscured has started... %s', args))
 })
 
 daemon.on('started', () => {
-  log('Obsidiand is attempting to synchronize with the network...')
+  log('Obscured is attempting to synchronize with the network...')
 })
 
 daemon.on('syncing', (info) => {
-  log(util.format('Obsidiand has synchronized %s out of %s blocks [%s%]', info.height, info.network_height, info.percent))
+  log(util.format('Obscured has synchronized %s out of %s blocks [%s%]', info.height, info.network_height, info.percent))
 })
 
 daemon.on('synced', () => {
-  log('Obsidiand is synchronized with the network...')
+  log('Obscured is synchronized with the network...')
 })
 
 daemon.on('ready', (info) => {
-  log(util.format('Obsidiand is waiting for connections at %s @ %s - %s H/s', info.height, info.difficulty, info.globalHashRate))
+  log(util.format('Obscured is waiting for connections at %s @ %s - %s H/s', info.height, info.difficulty, info.globalHashRate))
 })
 
 daemon.on('desync', (daemon, network, deviance) => {
-  log(util.format('Obsidiand is currently off the blockchain by %s blocks. Network: %s  Daemon: %s', deviance, network, daemon))
+  log(util.format('Obscured is currently off the blockchain by %s blocks. Network: %s  Daemon: %s', deviance, network, daemon))
 })
 
 daemon.on('down', () => {
