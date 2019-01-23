@@ -21,8 +21,8 @@ var daemon = new TurtleCoind({
 
   // These are the standard TurtleCoind options
   path: './Obscured', // Where can I find TurtleCoind?
-  dataDir: '~/.Obscure', // Where do you store your blockchain?
-  logfile: '/.Obscure.log', //Where to store log file
+  dataDir: '~/.ObscureIM', // Where do you store your blockchain?
+  logfile: '/.ObscureIM.log', //Where to store log file
   testnet: false, // Use the testnet?
   enableCors: true, // Enable CORS support for the domain in this value
   enableBlockExplorer: true, // Enable the block explorer
