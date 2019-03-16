@@ -27,10 +27,10 @@ var daemon = new TurtleCoind({
   enableCors: true, // Enable CORS support for the domain in this value
   enableBlockExplorer: true, // Enable the block explorer
   loadCheckpoints: false, // If set to a path to a file, will supply that file to the daemon if it exists.
-  rpcBindIp: '209.97.174.174', // What IP to bind the RPC server to
-  rpcBindPort: 11898, // What Port to bind the RPC server to
-  p2pBindIp: '209.97.174.174', // What IP to bind the P2P network to
-  p2pBindPort: 11897, // What Port to bind the P2P network to
+  rpcBindIp: '0.0.0.0', // What IP to bind the RPC server to
+  rpcBindPort: 11002, // What Port to bind the RPC server to
+  p2pBindIp: '0.0.0.0', // What IP to bind the P2P network to
+  p2pBindPort: 11001, // What Port to bind the P2P network to
   p2pExternalPort: 0, // What External Port to bind the P2P network to for those behind NAT
   allowLocalIp: false, // Add our own IP to the peer list?
   peers: false, // Manually add the peer(s) to the list. Allows for a string or an Array of strings.
